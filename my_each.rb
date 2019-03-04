@@ -1,9 +1,8 @@
 def my_each(arr) # put argument(s) here
   # code here
-  num = 0
+  num = -1
   while num < arr.size
-    puts arr[num]
     num += 1
+    arr[num]
   end
-  return arr
 end
