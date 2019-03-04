@@ -3,10 +3,10 @@ def my_each(arr) # put argument(s) here
   if arr.size == 0
     return arr
   end
-  num = -1
-  while num < arr.size
-    num += 1
+  num = 0
+  while num != arr.size
     yield(arr[num])
+    num += 1
   end
   arr
 end
