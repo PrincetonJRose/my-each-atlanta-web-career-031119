@@ -3,7 +3,6 @@ def my_each(arr) # put argument(s) here
   num = -1
   while num < arr.size
     num += 1
-    yield(puts "#{arr[num]}")
+    return arr[num]
   end
-  return arr
 end
