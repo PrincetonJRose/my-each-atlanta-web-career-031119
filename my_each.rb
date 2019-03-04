@@ -5,4 +5,5 @@ def my_each(arr) # put argument(s) here
     num += 1
     arr[num]
   end
+  return arr
 end
